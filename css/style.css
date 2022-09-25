@@ -1,36 +1,32 @@
 
-
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&display=swap');
-/* font-family: 'IBM Plex Sans Thai Looped', sans-serif; */
-
 /* Text Stylings */
 h1
 {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: xx-large;
   
 }
 
 h2
 {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: medium;
   margin: 0 auto;
 }
 
 h3
 {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: xx-large;
-  text-emphasis:initial;
   text-align: center;
-  margin: 0 auto;
+  text-emphasis:initial;
+  margin: 3;
+  color:white;
 }
 
 p
 {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: medium;
   margin: 0 auto;
 }
@@ -41,12 +37,30 @@ ul{
   padding: 0;
 }
 
+li{
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 #footer {
   text-decoration: none;
 }
 
 
 /* Mouseover Stylings */
+
+li a:hover {
+  background-color: gray;
+}
+
 a
 {
   color: white;
@@ -67,6 +81,10 @@ a
  color: black;
 }
 
+#home {
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(51, 51, 51));
+}
+
 img {
   border: 1px solid black; /* Gray border */
   border-radius: 4px;  /* Rounded border */
@@ -85,6 +103,10 @@ img:hover {
   margin: 0 auto;
   margin: 10px auto;
   
+}
+
+body {
+  background-color: rgb(51, 51, 51);
 }
 
 
